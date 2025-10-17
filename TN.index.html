@@ -363,3 +363,17 @@
   </script>
 </body>
 </html>
+<!-- Add this before closing </body> -->
+<div id="modal-bg" style="display:none;position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(0,0,0,0.22);z-index:1000;">
+  <div id="modal-card" style="max-width:340px;margin:40px auto;padding:20px;background:#fff;border-radius:14px;box-shadow:0 8px 30px rgba(0,0,0,0.14);position:relative;">
+    <button id="modal-close" style="position:absolute;top:12px;right:14px;">×</button>
+    <img id="modal-img" src="" alt="" style="width:100%;border-radius:10px;" />
+    <h2 id="modal-title" style="font-family:'Amatic SC',cursive;"></h2>
+    <div id="modal-desc"></div>
+    <div id="modal-price" style="margin:10px 0;font-weight:700;"></div>
+    <div style="display:flex;gap:8px;">
+      <button id="modal-add" class="btn">Add to Cart</button>
+      <button id="modal-wa" class="ghost">WhatsApp</button>
+    </div>
+  </div>
+</div>
