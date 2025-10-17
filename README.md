@@ -166,10 +166,10 @@
 
 <script>
 const PRODUCTS = [
-  { id:"fm-owl", name:"Goodluck Owl Fridge Magnet", price:299, short:"Handmade owl magnet", desc:"Cute hand-sculpted owl magnet. Size ~3 x 4 inches.", image:"images/Goodluck-Owl-FridgeMagnet.JPG", category:"Fridge Magnet" },
-  { id:"fm-fairy", name:"Fairy House Fridge Magnet", price:499, short:"Mini fairy house magnet", desc:"Whimsical fairy house magnet.", image:"images/Fairy-House-FridgeMagnet.JPG", category:"Fridge Magnet" },
-  { id:"fm-dream", name:"Mini Dream House Fridge Magnet", price:599, short:"Dream house themed magnet", desc:"Mini clay dream house magnet with delicate details.", image:"images/Mini-Dream-House-FridgeMagnet.JPG", category:"Fridge Magnet" },
-  { id:"fm-chimney", name:"Storybook Style Chimney House Fridge Magnet", price:699, short:"Storybook style house magnet", desc:"Charming storybook-style chimney house magnet.", image:"images/Storybook-Style-Chimney-House-FridgeMagnet.JPG", category:"Fridge Magnet" }
+  { id:"fm-owl", name:"Goodluck Owl Fridge Magnet", price:299, short:"Handmade owl magnet", desc:"Cute hand-sculpted owl magnet. Size ~3 x 4 inches.", image:"Goodluck-Owl-FridgeMagnet.JPG", category:"Fridge Magnet" },
+  { id:"fm-fairy", name:"Fairy House Fridge Magnet", price:499, short:"Mini fairy house magnet", desc:"Whimsical fairy house magnet.", image:"Fairy-House-FridgeMagnet.JPG", category:"Fridge Magnet" },
+  { id:"fm-dream", name:"Mini Dream House Fridge Magnet", price:599, short:"Dream house themed magnet", desc:"Mini clay dream house magnet with delicate details.", image:"Mini-Dream-House-FridgeMagnet.JPG", category:"Fridge Magnet" },
+  { id:"fm-chimney", name:"Storybook Style Chimney House Fridge Magnet", price:699, short:"Storybook style house magnet", desc:"Charming storybook-style chimney house magnet.", image:"Storybook-Style-Chimney-House-FridgeMagnet.JPG", category:"Fridge Magnet" }
 ];
 
 let cart = {};
